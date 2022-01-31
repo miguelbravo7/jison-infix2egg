@@ -1,0 +1,19 @@
+{
+  "name": "@ull-esit-pl-1920/p10-t5-jison-infix2egg-miguel-peg",
+  "version": "1.0.0",
+  "description": "Práctica jison infix to egg",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "comp_jison": "jison lib/grammar.jison"
+  },
+  "bin": {
+    "jison_parser": "./bin/jison2egg.js"
+  },
+  "author": "alu0101031538 <alu0101031538@ull.edu.es> (https://github.com/miguelbravo7)",
+  "license": "ISC",
+  "dependencies": {
+    "@ull-esit-pl-1920/p7-t3-egg-2-miguel": "^2.1.5",
+    "jison": "^0.4.18"
+  }
+}
